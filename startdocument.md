@@ -103,15 +103,15 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 #1 get number of packages.
 
-| Step | Code                     | Expected Output           |
-| ---- | ------------------------ | ------------------------- |
-| `1`  | `getNumberOfPackages()`  | `NumofPackages`           |
+| Step | Input | Code                     | Expected Output           |
+| ---- |-------| ------------------------ | ------------------------- |
+| `1`  | `packageOne`|`getNumberOfPackages()` | `NumofPackages`           |
 
 #1 getPackageDelivered.
 
-| Step | Code                     | Expected Output           |
-| ---- | ------------------------ | ------------------------- |
-| `1`  | `getNumOfPackageDelivered()`  | `NumOfPackageDelivered` |
+| Step | Input | Code                     | Expected Output           |
+| ---- | ------|------------------------ | ------------------------- |
+| `1`  | `Rick`| `getNumOfPackageDelivered()` | `NumOfPackageDelivered` |
 
 #2 addPackagesDelivered.
 
