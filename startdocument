@@ -3,7 +3,7 @@
 Start Document of *Jadyn Samuel Jacques. Student number: **4977920*.
 
 
-## Problem Description
+##Problem Description
 
 The National Soccer Association track and require a payment of the number of cards (Red card and Yellow card) given to a player of each team in the soccer club.
 They also give a Fair play award to the player with the least amount of cards.
@@ -22,7 +22,7 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 | Number of Yellow cards| `integer`| 0 <= `number` |
 | Number of Red cards   | `integer`| 0 <= `number` |
 
-### Outputs: 
+###Outputs: 
 
 | Case                  | Type               |
 | ----------------------| ------------------ |
