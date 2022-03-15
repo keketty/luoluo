@@ -82,21 +82,21 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | ID        | Input                                                        | Code                                               |
 | --------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| `timeSquare`| number: 1<br />name: timeSquare | `new Depot(1, " timeSquare")`      |
-| `summerPalace` | number: 2<br />name: summerPalace| `new Depot(2, "summerPalace")` |
+| `timeSquare`| name: timeSquare | `new Depot(" timeSquare")`      |
+| `summerPalace` | name: summerPalace| `new Depot("summerPalace")` |
 
 
 ####  Postmen
 
 | ID            | Input                                                                             | Code                                       |
 | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| `Rick`        | postManName: `Rick` <br/> maxAmountPackage : `200` <br/> maxWeightOfPack : `200` | `new  Postmen("Rick", "200", "200")` |
+| `Rick`        | postManName: `Rick` <br/> maxAmountPackage : `20`| `new  Postmen("Rick", "20")` |
 
 ####  Package  
 
 | ID            | Input                                                                             | Code                                       |
 | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| `packageOne`       | Package  Name: `packageOne` <br/> PackageWeight : `300` | `new  Package("packageOne", "300")` |
+| `packageOne`       | PackageName: `packageOne` <br/> PackageWeight : `300` | `new  Package("packageOne", "300")` |
 
 ### Test Cases
 
