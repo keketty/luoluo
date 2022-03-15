@@ -8,7 +8,7 @@ Start Document of *Ruike Yuan. Student number: **5000521*.
 Nowadays everybody shops online. PostNL is THE company to get the packages to the customers. PostNL wants healthy postmen so they want an application to measure the max amount of packages the postman can carry. Every postman may carry a maximum weight of packages. Each postman can carry a different weight. But with a maximum of 5 times the weight, they can carry per day.
 The Depot should know if they need to hire extra postmen so they can deliver all of the packages. The Depot tracks the number of packages delivered per postman per day and shows the name of the postman and the number of packages that he has delivered.
 
-##classes
+## classes
 | Postmen               | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
 | postManId             | `integer`| 0 <= `number` |
@@ -52,7 +52,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | depotName            |`String`| Not Empty |
 
 
-###Outputs: 
+### Outputs: 
 
 | Case                  | Type               |
 | ----------------------| ------------------ |
