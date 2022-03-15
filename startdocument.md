@@ -107,34 +107,13 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 
 | Step | Code                     | Expected Output           |
 | ---- | ------------------------ | ------------------------- |
-| `1`  | `getTeams()`             | `Soccer club`             |
+| `1`  | `getNumberOfPackages()`  | `NumofPackages`           |
 
-#2 get name of postmans.
+#2 AddPackagesDelivered.
 
 | Step | Input       | Code                 | Expected Output           |
 | ---- | ----------- | -------------------- | ------------------------- |
-| `1`  | `Rick`     | `getPostman("Rick")` | `name`  |
+| `packageOne`  | `packageOne`     | `AddPackagesDelivered("packageOne")` | `NoOutput`  |
 
-#3 AddPackagesDelivered.
 
-| Step | Input       | Code                 | Expected Output |
-| ---- | ----------- | -------------------- | --------------- |
-| `1`  | `Jadyn`     | `getYellows("Jadyn")`| `2`             |
 
-#4 Checking the amount of red cards a certain player has.
-
-| Step | Input       | Code                 | Expected Output |
-| ---- | ----------- | -------------------- | --------------- |
-| `1`  | `Jadyn`     | `getReds("Jadyn")`   | `0`             |
-
-#5 Checking the fines due for a certain player.
-
-| Step | Input       | Code                 | Expected Output                           |
-| ---- | ----------- | -------------------- | ----------------------------------------- |
-| `1`  | `Jadyn`     | `getFines("Jadyn")`  | 2 yellow cards * €18,32 = `36,64`         |
-
-#6 Checking which player received the FairPlay Award.
-
-| Step | Code                 | Expected Output |
-| ---- | -------------------- | --------------- |
-| `1`  | `getfairPLay()`      | `Jadyn`         |
