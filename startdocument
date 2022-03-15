@@ -1,0 +1,102 @@
+# Start Document for Football
+
+Start Document of *Jadyn Samuel Jacques. Student number: **4977920*.
+
+
+## Problem Description
+
+The National Soccer Association track and require a payment of the number of cards (Red card and Yellow card) given to a player of each team in the soccer club.
+They also give a Fair play award to the player with the least amount of cards.
+FC Emmen wants to register the number of fouls each player has committed and how much they would have to pay the association for the number of cards their players have received. 
+The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card and €41,60 per Red card. 
+
+
+## Inputs, Outputs & Calculations 
+
+### Inputs: 
+
+| Case                  | Type     | Conditions    |
+| --------------------- | -------- | ------------- |
+| Player Name           | `String` | Not Empty     |
+| Team Name             | `String` | Not Empty     |
+| Number of Yellow cards| `integer`| 0 <= `number` |
+| Number of Red cards   | `integer`| 0 <= `number` |
+
+### Outputs: 
+
+| Case                  | Type               |
+| ----------------------| ------------------ |
+| Player Name           | `ArrayList<Player>`|
+| Team Name             | `ArrayList<Team>`  |
+| Number of Yellow cards| `integer`          |
+| Number of Red cards   | `integer`          |
+
+### Calculations
+
+| Case           | Calculation                                                          |
+| -------------- | -------------------------------------------------------------------- |
+| Fine per team  | Sum of all the Yellow cards (€18,32) and Red cards (€41,60) received |
+
+## Class Diagram
+
+![ClassDiagram](https://user-images.githubusercontent.com/91316558/158166330-6c877fcf-f2a3-4660-898c-84bfd25dc406.png)
+
+## Test Plan 
+
+### Test Data
+
+#### Clubs
+
+| ID            | Code                              |
+| ------------- | --------------------------------- |
+| `Soccer club` | `new addTeam("Soccer club")`      |
+
+#### Team
+
+| ID            | Input               | Code                                 |
+| ------------- | ------------------- | ------------------------------------ |
+| `Soccer club` | player: `Jadyn`     | `new Player("Jadyn", "Soccer club")` |
+
+#### Player
+
+| ID            | Input                                                                             | Code                                       |
+| ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
+| `Jadyn`       | name: `Jadyn` <br/> team: `Soccer club` <br/> yellowCards: `2` <br/> redCards: `0`| `new Player("Jadyn", "Soccer club", 2, 0)` |
+
+### Test Cases
+
+#1 Checking for Teams in the club.
+
+| Step | Code                     | Expected Output           |
+| ---- | ------------------------ | ------------------------- |
+| `1`  | `getTeams()`             | `Soccer club`             |
+
+#2 Checking for Players in dfferent teams.
+
+| Step | Input       | Code                 | Expected Output           |
+| ---- | ----------- | -------------------- | ------------------------- |
+| `1`  | `Jadyn`     | `getPlayer("Jadyn")` | `Jadyn from Soccer club`  |
+
+#3 Checking the amount of yellow cards a certain player has.
+
+| Step | Input       | Code                 | Expected Output |
+| ---- | ----------- | -------------------- | --------------- |
+| `1`  | `Jadyn`     | `getYellows("Jadyn")`| `2`             |
+
+#4 Checking the amount of red cards a certain player has.
+
+| Step | Input       | Code                 | Expected Output |
+| ---- | ----------- | -------------------- | --------------- |
+| `1`  | `Jadyn`     | `getReds("Jadyn")`   | `0`             |
+
+#5 Checking the fines due for a certain player.
+
+| Step | Input       | Code                 | Expected Output                           |
+| ---- | ----------- | -------------------- | ----------------------------------------- |
+| `1`  | `Jadyn`     | `getFines("Jadyn")`  | 2 yellow cards * €18,32 = `36,64`         |
+
+#6 Checking which player received the FairPlay Award.
+
+| Step | Code                 | Expected Output |
+| ---- | -------------------- | --------------- |
+| `1`  | `getfairPLay()`      | `Jadyn`         |
