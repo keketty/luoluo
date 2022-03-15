@@ -83,9 +83,10 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 
 #### Depot
 
-| ID            | Code                              |
-| ------------- | --------------------------------- |
-| `Soccer club` | `new addTeam("Soccer club")`      |
+| ID        | Input                                                        | Code                                               |
+| --------- | ------------------------------------------------------------ | -------------------------------------------------- |
+| `timeSquare`| number: 1<br />name: timeSquare<br />city: NewYork                    | `new Depot(1, " timeSquare", "NewYork ")`                  |
+| `summerPalace` | number: 2<br />name: summerPalace<br />city: Beijing| `new Depot(2, "summerPalace", "Beijing")` |
 
 #### Team
 
