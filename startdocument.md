@@ -1,6 +1,6 @@
 # Start Document for Football
 
-Start Document of *Jadyn Samuel Jacques. Student number: **4977920*.
+Start Document of *Ruike Yuan. Student number: **5000521*.
 
 
 ##Problem Description
@@ -85,21 +85,21 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 
 | ID        | Input                                                        | Code                                               |
 | --------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| `timeSquare`| number: 1<br />name: timeSquare<br />city: NewYork   | `new Depot(1, " timeSquare", "NewYork ")`               |
-| `summerPalace` | number: 2<br />name: summerPalace<br />city: Beijing| `new Depot(2, "summerPalace", "Beijing")` |
+| `timeSquare`| number: 1<br />name: timeSquare | `new Depot(1, " timeSquare")`      |
+| `summerPalace` | number: 2<br />name: summerPalace| `new Depot(2, "summerPalace")` |
 
 
 ####  Postmen
 
 | ID            | Input                                                                             | Code                                       |
 | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| `Rick`       | postManName: `Rick` <br/> maxAmountPackage : `200` <br/> maxWeightOfPack : `200` | `new  Postmen("Rick", "200", "200")` |
+| `Rick`        | postManName: `Rick` <br/> maxAmountPackage : `200` <br/> maxWeightOfPack : `200` | `new  Postmen("Rick", "200", "200")` |
 
 ####  Package  
 
 | ID            | Input                                                                             | Code                                       |
 | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| `packageOne`       | Package  Name: `packageOne` <br/> PackageWeight : `300` | `new  Package("Rick", "300")` |
+| `packageOne`       | Package  Name: `packageOne` <br/> PackageWeight : `300` | `new  Package("packageOne", "300")` |
 
 ### Test Cases
 
