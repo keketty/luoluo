@@ -5,10 +5,8 @@ Start Document of *Ruike Yuan. Student number: **5000521*.
 
 ##Problem Description
 
-The National Soccer Association track and require a payment of the number of cards (Red card and Yellow card) given to a player of each team in the soccer club.
-They also give a Fair play award to the player with the least amount of cards.
-FC Emmen wants to register the number of fouls each player has committed and how much they would have to pay the association for the number of cards their players have received. 
-The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card and €41,60 per Red card. 
+Nowadays everybody shops online. PostNL is THE company to get the packages to the customers. PostNL wants healthy postmen so they want an application to measure the max amount of packages the postman can carry. Every postman may carry a maximum weight of packages. Each postman can carry a different weight. But with a maximum of 5 times the weight, they can carry per day.
+The Depot should know if they need to hire extra postmen so they can deliver all of the packages. The Depot tracks the number of packages delivered per postman per day and shows the name of the postman and the number of packages that he has delivered.
 
 ##classes
 | Postmen               | Type     | Conditions    |
