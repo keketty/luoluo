@@ -85,20 +85,21 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 
 | ID        | Input                                                        | Code                                               |
 | --------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| `timeSquare`| number: 1<br />name: timeSquare<br />city: NewYork                    | `new Depot(1, " timeSquare", "NewYork ")`                  |
+| `timeSquare`| number: 1<br />name: timeSquare<br />city: NewYork   | `new Depot(1, " timeSquare", "NewYork ")`               |
 | `summerPalace` | number: 2<br />name: summerPalace<br />city: Beijing| `new Depot(2, "summerPalace", "Beijing")` |
 
-#### Team
 
-| ID            | Input               | Code                                 |
-| ------------- | ------------------- | ------------------------------------ |
-| `Soccer club` | player: `Jadyn`     | `new Player("Jadyn", "Soccer club")` |
-
-#### Player
+####  Postmen
 
 | ID            | Input                                                                             | Code                                       |
 | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| `Jadyn`       | name: `Jadyn` <br/> team: `Soccer club` <br/> yellowCards: `2` <br/> redCards: `0`| `new Player("Jadyn", "Soccer club", 2, 0)` |
+| `Rick`       | postManName: `Rick` <br/> maxAmountPackage : `200` <br/> maxWeightOfPack : `200` | `new  Postmen("Rick", "200", "200")` |
+
+####  Package  
+
+| ID            | Input                                                                             | Code                                       |
+| ------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
+| `packageOne`       | Package  Name: `packageOne` <br/> PackageWeight : `300` | `new  Package("Rick", "300")` |
 
 ### Test Cases
 
