@@ -10,32 +10,68 @@ They also give a Fair play award to the player with the least amount of cards.
 FC Emmen wants to register the number of fouls each player has committed and how much they would have to pay the association for the number of cards their players have received. 
 The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card and €41,60 per Red card. 
 
+##classes
+| Postmen               | Type     | Conditions    |
+| --------------------- | -------- | ------------- |
+| postManId             | `integer`| 0 <= `number` |
+| postManName           | `String` | Not Empty     |
+| maxAmountPackage      | `integer`| 0 <= `number` |
+| maxWeightOfPack       | `integer`| 0 <= `number` |
+| maxWeightOfPackPerDay | `integer`| 0 <= `number` |
+
+| Package               | Type     | Conditions    |
+| --------------------- | -------- | ------------- |
+| packageName           | `integer`| 0 <= `number` |
+| packageWeight         | `integer` | 0 <= `number` |
+| packageId             | `integer`| 0 <= `number` |
+
+| Depot                 | Type     | Conditions    |
+| --------------------- | -------- | ------------- |
+| depotId     | `integer`| 0 <= `number` |
+| packagesAmount        |`ArrayList<Package>`| Not Empty |
+| packagesTotalWeight   | `integer`| 0 <= `number` |
+| maximumCarryWeight    | `integer`| 0 <= `number` |
+| needMoreMen | `boolean`| true/false |
 
 ## Inputs, Outputs & Calculations 
 
 ### Inputs: 
 
-| Case                  | Type     | Conditions    |
+| Postmen               | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
-| Player Name           | `String` | Not Empty     |
-| Team Name             | `String` | Not Empty     |
-| Number of Yellow cards| `integer`| 0 <= `number` |
-| Number of Red cards   | `integer`| 0 <= `number` |
+| postManName           | `String` | Not Empty     |
+| maxAmountPackage      | `integer`| 0 <= `number` |
+| maxWeightOfPack       | `integer`| 0 <= `number` |
+| maxWeightOfPackPerDay | `integer`| 0 <= `number` |
+
+| Package               | Type     | Conditions    |
+| --------------------- | -------- | ------------- |
+| packageName           | `integer`| 0 <= `number` |
+| packageWeight         | `integer`| 0 <= `number` |
+
+| Depot                 | Type     | Conditions    |
+| --------------------- | -------- | ------------- |
+| depotName            |`String`| Not Empty |
+
 
 ###Outputs: 
 
 | Case                  | Type               |
 | ----------------------| ------------------ |
-| Player Name           | `ArrayList<Player>`|
-| Team Name             | `ArrayList<Team>`  |
-| Number of Yellow cards| `integer`          |
-| Number of Red cards   | `integer`          |
+| name of the postman   |`String`|
+| packagesAmount        |`ArrayList<Packages>`|
+| packagesTotalWeight   | 0 <= `number`|
+| maximumCarryWeightOfDepot |`integer`| 0 <= `number` |
+| number of packages delivered in total per man| `integer` |
+
 
 ### Calculations
 
 | Case           | Calculation                                                          |
 | -------------- | -------------------------------------------------------------------- |
-| Fine per team  | Sum of all the Yellow cards (€18,32) and Red cards (€41,60) received |
+| number of packages delivered in total per man  | Sum of all the packages delivered|
+| maximumCarryWeightOfDepot | `integer`| 0 <= `number` |
+| packagesTotalWeight    | `integer`| 0 <= `number` |
 
 ## Class Diagram
 
