@@ -26,9 +26,8 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | Depot                 | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
-| depotId     |`integer`| 0 <= `number` |
+| depotId               |`integer`| 0 <= `number` |
 | packagesAmount        |`ArrayList<TPackage>`| Not Empty |
-| packagesTotalWeight   | `integer`| 0 <= `number` |
 | maximumCarryWeight    | `integer`| 0 <= `number` |
 | needMoreMen |`boolean`| true/false |
 
@@ -105,7 +104,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | Step | Input | Code                     | Expected Output           |
 | ---- |-------| ------------------------ | ------------------------- |
-| `1`  | `packageOne`|`getNumberOfPackages()` | `NumofPackages`           |
+| `1`  | `timeSquare`|`getDailyPackageAmount()` | `PackageAmount`     |
 
 #1 getPackageDelivered.
 
