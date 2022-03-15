@@ -16,6 +16,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | maxAmountPackage      | `integer`| 0 <= `number` |
 | maxWeightOfPack       | `integer`| 0 <= `number` |
 | maxWeightOfPackPerDay | `integer`| 0 <= `number` |
+| PackagesDelivered| `ArrayList<DPackage>`| Not Empty |
 
 | Package               | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
@@ -25,11 +26,11 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | Depot                 | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
-| depotId     | `integer`| 0 <= `number` |
-| packagesAmount        |`ArrayList<Package>`| Not Empty |
+| depotId     |`integer`| 0 <= `number` |
+| packagesAmount        |`ArrayList<TPackage>`| Not Empty |
 | packagesTotalWeight   | `integer`| 0 <= `number` |
 | maximumCarryWeight    | `integer`| 0 <= `number` |
-| needMoreMen | `boolean`| true/false |
+| needMoreMen |`boolean`| true/false |
 
 ## Inputs, Outputs & Calculations 
 
@@ -58,7 +59,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | ----------------------| ------------------ |
 | name of the postman   |`String`|
 | number of packages delivered in total per man| `integer` |
-| needMoreMen | `boolean`|
+| needMoreMen |`boolean`|
 
 
 
@@ -82,7 +83,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | ID        | Input                                                        | Code                                               |
 | --------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| `timeSquare`| name: timeSquare | `new Depot(" timeSquare")`      |
+| `timeSquare`| name: timeSquare | `new Depot("timeSquare")`      |
 | `summerPalace` | name: summerPalace| `new Depot("summerPalace")` |
 
 
@@ -106,11 +107,29 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | ---- | ------------------------ | ------------------------- |
 | `1`  | `getNumberOfPackages()`  | `NumofPackages`           |
 
-#2 AddPackagesDelivered.
+#1 getPackageDelivered.
+
+| Step | Code                     | Expected Output           |
+| ---- | ------------------------ | ------------------------- |
+| `1`  | `getNumOfPackageDelivered()`  | `NumOfPackageDelivered` |
+
+#2 addPackagesDelivered.
 
 | Step | Input       | Code                 | Expected Output           |
 | ---- | ----------- | -------------------- | ------------------------- |
-| `packageOne`  | `packageOne`     | `AddPackagesDelivered("packageOne")` | `NoOutput`  |
+| `1`  | `packageOne`| `AddPackagesDelivered("packageOne")`|`NoOutput`|
+
+#3 getNeedMoreMen.
+
+| Step | Input       | Code                 | Expected Output           |
+| ---- | ----------- | -------------------- | ------------------------- |
+| `2` | `depotOne`  | `AddDepot("packageOne")` | `true/false`  |
+
+#4 getPostManName.
+
+| Step | Input       | Expected Output           |
+| ---- | ----------- | ------------------------- |
+| `2` | `Rick` | `PostManName` |
 
 
 
