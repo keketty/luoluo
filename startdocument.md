@@ -40,11 +40,11 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | postManName           | `String` | Not Empty     |
 | maxAmountPackage      | `integer`| 0 <= `number` |
 | maxWeightOfPack       | `integer`| 0 <= `number` |
-| maxWeightOfPackPerDay | `integer`| 0 <= `number` |
+
 
 | Package               | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
-| packageName           | `integer`| 0 <= `number` |
+| packageNumber          | `integer`| 0 <= `number` |
 | packageWeight         | `integer`| 0 <= `number` |
 
 | Depot                 | Type     | Conditions    |
@@ -57,19 +57,18 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | Case                  | Type               |
 | ----------------------| ------------------ |
 | name of the postman   |`String`|
-| packagesAmount        |`ArrayList<Packages>`|
-| packagesTotalWeight   | 0 <= `number`|
-| maximumCarryWeightOfDepot |`integer`| 0 <= `number` |
 | number of packages delivered in total per man| `integer` |
+| needMoreMen | `boolean`|
+
 
 
 ### Calculations
 
 | Case           | Calculation                                                          |
 | -------------- | -------------------------------------------------------------------- |
-| number of packages delivered in total per man  | Sum of all the packages delivered|
-| maximumCarryWeightOfDepot | `integer`| 0 <= `number` |
-| packagesTotalWeight    | `integer`| 0 <= `number` |
+| number of packages delivered in total per man  | 0 <= `number`|
+| maxWeightOfPackPerDayPerPerson |`integer`| 0 <= `number` |
+| packagesTotalAmount   | 0 <= `number`|
 
 ## Class Diagram
 
