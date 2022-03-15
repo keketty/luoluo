@@ -81,7 +81,7 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 
 ### Test Data
 
-#### Clubs
+#### Depot
 
 | ID            | Code                              |
 | ------------- | --------------------------------- |
@@ -101,19 +101,19 @@ The fine for the Yellow and Red cards are as follows: €18,32 per Yellow card a
 
 ### Test Cases
 
-#1 Checking for Teams in the club.
+#1 get number of packages.
 
 | Step | Code                     | Expected Output           |
 | ---- | ------------------------ | ------------------------- |
 | `1`  | `getTeams()`             | `Soccer club`             |
 
-#2 Checking for Players in dfferent teams.
+#2 get name of postmans.
 
 | Step | Input       | Code                 | Expected Output           |
 | ---- | ----------- | -------------------- | ------------------------- |
-| `1`  | `Jadyn`     | `getPlayer("Jadyn")` | `Jadyn from Soccer club`  |
+| `1`  | `Rick`     | `getPostman("Rick")` | `name`  |
 
-#3 Checking the amount of yellow cards a certain player has.
+#3 AddPackagesDelivered.
 
 | Step | Input       | Code                 | Expected Output |
 | ---- | ----------- | -------------------- | --------------- |
