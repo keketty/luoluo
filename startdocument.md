@@ -70,7 +70,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 ## Class Diagram
 
-![ClassDiagram](https://)
+![ClassDiagram](https://github.com/keketty/luoluo/blob/main/Class%20Diagram0.png?raw=true)
 
 ## Test Plan 
 
