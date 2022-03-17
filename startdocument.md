@@ -28,7 +28,6 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | --------------------- | -------- | ------------- |
 | depotId               |`integer`| 0 <= `number` |
 | packagesAmount        |`ArrayList<TPackage>`| Not Empty |
-| maximumCarryWeight    | `integer`| 0 <= `number` |
 | needMoreMen |`boolean`| true/false |
 
 ## Inputs, Outputs & Calculations 
