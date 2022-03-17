@@ -9,9 +9,12 @@ Nowadays everybody shops online. PostNL is THE company to get the packages to th
 The Depot should know if they need to hire extra postmen so they can deliver all of the packages. The Depot tracks the number of packages delivered per postman per day and shows the name of the postman and the number of packages that he has delivered.
 
 Notice
-1.Everyday the depot sets a new package amount.
-2.The capacity of postman is depentent on the amounts of packages he/she can carry per day, whether there is a need to hire extra postman is based on the amount of packages that all the postman in the depot can carry per day.
 
+
+
+
+  + Everyday the depot sets a new package amount.
+  + The capacity of postman is depentent on the amounts of packages he/she can carry per day, whether there is a need to hire extra postman is based on the amount of packages that all the postman in the depot can carry per day.
 
 ## classes
 | Postmen               | Type     | Conditions    |
