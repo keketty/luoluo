@@ -5,8 +5,13 @@ Start Document of *Ruike Yuan. Student number: **5000521*.
 
 ##Problem Description
 
-Nowadays everybody shops online. PostNL is THE company to get the packages to the customers. PostNL wants healthy postmen so they want an application to measure the max amount of packages the postman can carry. Every postman may carry a maximum weight of packages. Each postman can carry a different weight. But with a maximum of 5 times the weight, they can carry per day.
+Nowadays everybody shops online. PostNL is THE company to get the packages to the customers. PostNL wants healthy postmen so they want an application to measure the max amount of packages the postman can carry(per day). Every postman may carry a maximum weight of packages. Each postman can carry a different weight. But with a maximum of 5 times the weight, they can carry per day.
 The Depot should know if they need to hire extra postmen so they can deliver all of the packages. The Depot tracks the number of packages delivered per postman per day and shows the name of the postman and the number of packages that he has delivered.
+
+Notice
+1.Everyday the depot sets a new package amount.
+2.The capacity of postman is depentent on the amounts of packages he/she can carry per day, whether there is a need to hire extra postman is based on the amount of packages that all the postman in the depot can carry per day.
+
 
 ## classes
 | Postmen               | Type     | Conditions    |
