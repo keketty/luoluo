@@ -20,9 +20,8 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | Package               | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
-| packageName           | `integer`| 0 <= `number` |
+| packageNumber           | `integer`| 0 <= `number` |
 | packageWeight         | `integer` | 0 <= `number` |
-| packageId             | `integer`| 0 <= `number` |
 
 | Depot                 | Type     | Conditions    |
 | --------------------- | -------- | ------------- |
@@ -121,7 +120,7 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 
 | Step | Input       | Code                 | Expected Output           |
 | ---- | ----------- | -------------------- | ------------------------- |
-| `2` | `depotOne`  | `AddDepot("packageOne")` | `true/false`  |
+| `2` | `depotOne`  | `getNeedMoreMen()` | `true/false`  |
 
 #4 getPostManName.
 
