@@ -111,11 +111,11 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | ---- | ------|------------------------ | ------------------------- |
 | `1`  | `Rick`| `getNumOfPackageDelivered()` | `NumOfPackageDelivered` |
 
-#2 addPackagesDelivered.
+#2 deletePackagesDelivered.
 
 | Step | Input       | Code                 | Expected Output           |
 | ---- | ----------- | -------------------- | ------------------------- |
-| `1`  | `packageOne`| `AddPackagesDelivered("packageOne")`|`NoOutput`|
+| `1`  | `packageOne`| `deletePackagesDelivered("packageOne")`|`NoOutput`|
 
 #3 getNeedMoreMen.
 
