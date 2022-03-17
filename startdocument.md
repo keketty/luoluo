@@ -105,11 +105,11 @@ The Depot should know if they need to hire extra postmen so they can deliver all
 | ---- |-------| ------------------------ | ------------------------- |
 | `1`  | `timeSquare`|`getDailyPackageAmount()` | `PackageAmount`     |
 
-#1 getPackageDelivered.
+#1 getPackageDeliveredToday.
 
 | Step | Input | Code                     | Expected Output           |
 | ---- | ------|------------------------ | ------------------------- |
-| `1`  | `Rick`| `getNumOfPackageDelivered()` | `NumOfPackageDelivered` |
+| `1`  | `Rick`| `getNumOfPackageDeliveredToday()` | `NumOfPackageDelivered` |
 
 #2 addPackagesDelivered.
 
